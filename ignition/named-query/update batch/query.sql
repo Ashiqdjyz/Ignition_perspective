@@ -1,0 +1,1 @@
+INSERT INTO production(machine_name,no_batch)values(:machine_name,:no_batch);

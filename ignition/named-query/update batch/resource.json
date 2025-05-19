@@ -1,0 +1,45 @@
+{
+  "scope": "DG",
+  "version": 2,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "query.sql"
+  ],
+  "attributes": {
+    "useMaxReturnSize": false,
+    "autoBatchEnabled": false,
+    "fallbackValue": "",
+    "maxReturnSize": 100,
+    "cacheUnit": "SEC",
+    "type": "UpdateQuery",
+    "enabled": true,
+    "cacheAmount": 1,
+    "cacheEnabled": false,
+    "database": "MES",
+    "fallbackEnabled": false,
+    "lastModificationSignature": "11d2fe57907380204bcc3f3e08b2953e92e0d2f6ff87cf5c05696b1143c739ca",
+    "permissions": [
+      {
+        "zone": "",
+        "role": ""
+      }
+    ],
+    "lastModification": {
+      "actor": "ashiq",
+      "timestamp": "2024-12-31T12:06:54Z"
+    },
+    "parameters": [
+      {
+        "type": "Parameter",
+        "identifier": "machine_name",
+        "sqlType": 7
+      },
+      {
+        "type": "Parameter",
+        "identifier": "no_batch",
+        "sqlType": 2
+      }
+    ]
+  }
+}
